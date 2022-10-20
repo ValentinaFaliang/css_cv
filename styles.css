@@ -1,0 +1,212 @@
+body {
+  background: url("strawberry.jpg");
+  color: #4f4d4a;
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Caveat", cursive;
+}
+
+a {
+  color: #4f4d4a;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+a:hover {
+  color: #ff5b4f;
+}
+
+a:active {
+  color: aquamarine;
+}
+
+h2 {
+  background-color: #65c9fb45;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.avatar {
+  width: 300px;
+  border-radius: 40px;
+  box-shadow: 9px 0px 6px 20px rgba(255, 147, 131, 25);
+  margin: auto;
+  display: block;
+}
+
+.info p {
+  color: #ff5b4f;
+  margin: 0px;
+  font-style: italic;
+  letter-spacing: 1px;
+  word-spacing: 10px;
+}
+.info_center {
+  width: fit-content;
+  margin: auto;
+}
+.info_center h1 {
+  width: fit-content;
+  margin: auto;
+  padding-bottom: 40px;
+}
+.info_center h1:nth-child(2) {
+  width: fit-content;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #e2dbd1;
+  border-radius: 10px;
+}
+.social {
+  background-color: #ffffff;
+  padding-top: 0px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border: 5px solid #ff5b4f;
+  margin: 20px 170px;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  text-align: center;
+}
+.social a {
+  margin: 0 20px;
+}
+
+.social h2 {
+  width: fit-content;
+  margin: auto;
+}
+
+.bg-1 {
+  background-color: #ff5b4f;
+}
+.bg-2 {
+  background-color: #ff5b4f4d;
+}
+.bg-3 {
+  background-color: #ff5b4fa6;
+}
+.card {
+  padding: 15px 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.list {
+  padding: 0px 15px;
+  list-style: disc;
+}
+
+.li1 {
+  color: #4f4d4a;
+}
+.li2 {
+  color: #3e3d3a;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+.li3 {
+  color: #2b2b29;
+}
+.li4 {
+  color: #1f0202;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2) {
+  color: #501d19dd;
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.table th {
+  background-color: #fbbf6545;
+  border-radius: 20px;
+}
+.contact {
+  text-align: center;
+  margin-left: 5px;
+  margin-left: 5px;
+}
+
+.form-group label {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 40%;
+  box-sizing: border-box;
+  border: 5px solid #ff5b4f;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  color: #1f0202;
+  padding: 5px 5px;
+  outline: none;
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.form-variation {
+  padding-top: 5px;
+}
+
+.form-variation fieldset {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+}
+.form-variation input {
+  accent-color: #ff5b4f;
+}
+
+.btn {
+  margin: 20px 0;
+  background: #4990b4;
+  color: #ffffff;
+  padding: 5px 3px;
+  border-style: dotted;
+  border-color: #ff5b4f;
+  border-radius: 5px;
+  border-width: 5px;
+  font-family: inherit;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 576px) {
+  .social,
+  .card,
+  .info {
+    margin: 20px 20px;
+  }
+
+  .form-group > input,
+  .form-group > textarea {
+    width: 80%;
+  }
+}

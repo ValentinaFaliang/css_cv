@@ -1,0 +1,72 @@
+body {
+  background: url(strawberry.jpg);
+  color: #4f4d4a;
+
+  font-size: 20px;
+  font-weight: normal;
+  font-family: "Caveat", cursive;
+}
+a {
+  color: #4f4d4a;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+a:hover {
+  color: #ff5b4f;
+}
+
+a:active {
+  color: aquamarine;
+}
+h2 {
+  width: auto;
+  background-color: #65c9fb45;
+  border-radius: 20px;
+  padding: 5px;
+}
+.h2 {
+  width: fit-content;
+  margin: auto;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #e2dbd1;
+  border-radius: 10px;
+  padding: 5px;
+}
+.wide {
+  background-color: #ffffff;
+  border: 5px solid #ff5b4f;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  padding: 30px 30px;
+  margin: 20px;
+}
+.picture_wide {
+  max-width: 500px;
+  margin: auto;
+}
+.picture_wide img {
+  border-radius: 20px;
+  width: 100%;
+}
+.container_square {
+  background-color: #ff5b4fa0;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 20px;
+  margin: auto;
+}
+.picture_square img {
+  max-width: 100%;
+  width: auto;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 20px 15px 0px 0px rgb(83, 159, 175);
+}
+
+.picture_square {
+  padding-right: 20px;
+}

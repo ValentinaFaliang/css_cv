@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valentina's Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="info_center">
+        <h1><em> My CV</em></h1>
+        <div class="info">
+          <img src="Valentina.jpg" alt="Valentina" class="avatar" />
+          <h1>Valentina Faliang</h1>
+          <p>
+            I am <strong>a junior fronted-developer</strong> and also
+            <strong>a chinese interpreter</strong>.
+          </p>
+          <p>
+            I like to spend my free time creating 3D models and drawing with
+            watercolor.
+          </p>
+        </div>
+      </div>
+      <div class="social">
+        <h2>My social links</h2>
+        <a href="https://t.me/otogandfaliang" target="_blank">telegram</a>
+        <a href="https://www.instagram.com/onetouchofgalaxy/" target="_blank"
+          >instagram
+        </a>
+      </div>
+      <div class="card bg-1">
+        <h2>My hobbies</h2>
+        <ol class="list" type="a">
+          <li class="li1">creating 3D models</li>
+          <li class="li2">drawing with watercolor</li>
+          <li class="li3">watching chinese dramas</li>
+          <li class="li4">exploring new places</li>
+        </ol>
+      </div>
+      <div class="card bg-3">
+        <h2>Work experience</h2>
+        <table class="table">
+          <tr>
+            <th>Position</th>
+            <th>Company</th>
+            <th>Date</th>
+          </tr>
+          <tr>
+            <td>Chinese interpeter</td>
+            <td>Golden公司</td>
+            <td>2020/07-2020/08</td>
+          </tr>
+          <tr>
+            <td>
+              Specialist of monitoring web-resources with knowing Chinese
+              language
+            </td>
+            <td>WebKontrol</td>
+            <td>2021/08-2021/12</td>
+          </tr>
+        </table>
+      </div>
+      <div class="card bg-2">
+        <h2>My personal projects</h2>
+        <p>You can watch <a href="my_projects.html">here</a></p>
+      </div>
+      <div class="contact">
+        <h2>Contact me</h2>
+        <form action="/">
+          <div class="form-group">
+            <label for="name">Your name:</label>
+            <input type="text" id="name" placeholder="Type your name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Your email:</label>
+            <input type="email" id="email" placeholder="Type your email" />
+          </div>
+          <div class="form-variation">
+            <label>Your sex:</label>
+            <fieldset id="group1">
+              <label>Female</label>
+              <input type="radio" value="Female" name="group1" />
+              <label>Male</label>
+              <input type="radio" value="Male" name="group1" />
+            </fieldset>
+          </div>
+          <div class="form-group">
+            <label for="textforme">Your message:</label>
+            <textarea
+              id="textforme"
+              cols="30"
+              rows="8"
+              placeholder="Type your message"
+            ></textarea>
+          </div>
+          <input class="btn" type="submit" value="Contact me" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
